@@ -1,0 +1,38 @@
+.page {
+  font-size: 18px;
+  display: flex;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.page__current {
+  margin-right: 30px;
+}
+
+.page__list {
+  display: flex;
+}
+
+.page__link {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  line-height: 32px;
+  transition: 0.3s;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.page__link--active {
+  background-color: rgb(53, 52, 52);
+  
+}
+
+.page__link:hover {
+  box-shadow: 0 0 20px 0 #9e2af8;
+  background-color: #8F00FF;
+  border-radius: 50%;
+}

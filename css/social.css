@@ -1,0 +1,51 @@
+.social {
+  display: flex;
+  flex: 1;
+}
+
+.social__list {
+  display: flex;
+  gap: 10px;
+}
+
+.social__item {
+  transition: .5s;
+}
+
+.social__link {
+  display: block;
+  width: 36px;
+  height: 36px;
+}
+
+.social__item--tele {
+  background-image: url(../img/telegram.png);
+}
+
+.social__item--tele:hover {
+  background-image: url(../img/t2.png);
+}
+
+.social__item--vk {
+  background-image: url(../img/vk.png);
+}
+
+.social__item--vk:hover {
+  background-image: url(../img/vk2.png);
+}
+
+.social__item--face {
+  background-image: url(../img/f.png);
+}
+
+.social__item--face:hover {
+  background-image: url(../img/f2.png);
+}
+
+.social__item--inst {
+  background-image: url(../img/in.png);
+}
+
+.social__item--inst:hover {
+  background-image: url(../img/in2.png);
+}

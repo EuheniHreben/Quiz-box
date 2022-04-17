@@ -1,0 +1,39 @@
+.game {
+  margin-bottom: 150px;
+}
+
+.game__list {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.game__link {
+  position: relative;
+
+}
+
+.game__img {
+  border-radius: 5px;
+}
+
+.game__desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  min-height: 150px;
+}
+
+.game__name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.game__text {
+  font-size: 16px;
+}
