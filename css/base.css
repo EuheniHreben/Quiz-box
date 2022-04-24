@@ -9,6 +9,11 @@ html, body {
 .main-page-wrapper {
   overflow: hidden;
   background: url(../img/bgtop.png) top no-repeat, url(../img/bgbottom.png)  bottom no-repeat ;
+  /* filter: grayscale(1); */
+}
+
+.wrapper-second {
+  /* filter: grayscale(0); */
 }
 
 * {
@@ -44,7 +49,6 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1140px;
 }
 
-
 h1 {
   font-size: 60px;
   margin-bottom: 20px;
@@ -62,4 +66,12 @@ h3 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
+}
+
+.top {
+  background: url(../img/bgtop.png) center center no-repeat;
+}
+
+.top__title {
+  margin-bottom: 100px;
 }
