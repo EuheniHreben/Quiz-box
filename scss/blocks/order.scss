@@ -1,0 +1,35 @@
+.order__list {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.order__item {
+  padding: 20px;
+  display: flex;
+  transition: .5s;
+  background-color: rgba(215, 213, 213, 0.071);
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.order__item:hover {
+  background-color: rgba(81, 76, 76, 0.5);
+  box-shadow: 2px 5px 15px  rgba(81, 76, 76, 0.5); 
+}
+
+.order__img-box {
+  margin-right: 50px;
+}
+
+.order__img {
+  max-width: 340px;
+  height: 220px;
+}
+
+.order__title {
+  margin-bottom: 20px;
+}
+
+.order__text {
+  margin-bottom: 20px;
+}

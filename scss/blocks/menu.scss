@@ -1,0 +1,29 @@
+.menu {
+  flex: 2;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item {
+  margin-right: 50px;
+  font-size: 16px;
+  // font-weight: bold;
+}
+
+.menu__link {
+  transition: 0.3s;
+}
+
+.menu__link--active {
+  color: #741BBA;
+}
+
+.menu__link:hover {
+  color: #741BBA;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}

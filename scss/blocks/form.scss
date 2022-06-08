@@ -1,0 +1,45 @@
+.form {
+  padding-top: 40px;
+}
+
+.form__group {
+  display: flex;
+  column-gap: 28px;
+  margin-bottom: 28px;
+}
+
+.form__list {
+  display: flex;
+  gap: 9px 14px;
+  margin-left: auto;
+  max-width: 705px;
+  flex-wrap: wrap;
+}
+
+.form__input {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: 3px solid transparent;
+  outline: none;
+  flex: 1;
+}
+
+.form__input:focus {
+  border-color: #8F00FF;
+}
+
+.form__input::placeholder {
+  color: #666666;
+}
+
+.form__input--type-textarea {
+  height: 235px;
+  resize: none;
+}
+
+.form__btn {
+  display: flex;
+  gap: 14px;
+  margin-left: auto;
+}

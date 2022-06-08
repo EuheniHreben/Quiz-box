@@ -1,0 +1,10 @@
+.top {
+  background: url(../img/bgtop.png) center center no-repeat;
+}
+
+.top-container {
+  min-height: 412px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

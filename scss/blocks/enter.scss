@@ -1,0 +1,42 @@
+.enter {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/bgtop.png) center center / cover no-repeat;
+  align-items: center;
+  justify-content: center;
+}
+
+.enter__container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.enter__logo {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.enter__link {
+  text-align: center;
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background: -webkit-linear-gradient(90deg, #7e02dc, #0b84f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.enter__logo--start {
+  animation-fill-mode: forwards;
+  opacity: 1;
+  animation: bounce;
+  animation-duration: 2s; 
+}
