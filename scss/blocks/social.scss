@@ -1,11 +1,8 @@
-.social {
-  display: flex;
-  flex: 1;
-}
-
 .social__list {
+  flex: 1;
+  margin-right: rem(20px);
   display: flex;
-  gap: 10px;
+  gap: rem(10px);
 }
 
 .social__item {
@@ -14,8 +11,8 @@
 
 .social__link {
   display: block;
-  width: 36px;
-  height: 36px;
+  width: rem(36px);
+  height: rem(36px);
 }
 
 .social__item--tele {

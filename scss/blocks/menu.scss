@@ -4,12 +4,12 @@
 
 .menu__list {
   display: flex;
+  margin-right: rem(20px);
 }
 
 .menu__item {
-  margin-right: 50px;
-  font-size: 16px;
-  // font-weight: bold;
+  margin-right: rem(50px);
+  font-size: rem(16px);
 }
 
 .menu__link {

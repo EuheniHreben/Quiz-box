@@ -1,15 +1,15 @@
 .page {
-  font-size: 18px;
+  font-size: rem(18px);
   display: flex;
   font-weight: bold;
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: rem(20px);
 }
 
 .page__current {
-  margin-right: 30px;
+  margin-right: rem(30px);
 }
 
 .page__list {
@@ -18,10 +18,10 @@
 
 .page__link {
   display: flex;
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-  line-height: 40px;
+  width: rem(40px);
+  height: rem(40px);
+  margin-right: rem(10px);
+  line-height: rem(40px);
   transition: 0.3s;
   border-radius: 50%;
   justify-content: center;
@@ -33,7 +33,7 @@
 }
 
 .page__link:hover {
-  box-shadow: 0 0 20px 0 #9e2af8;
+  box-shadow: 0 0 rem(20px) 0 #9e2af8;
   background-color: #8F00FF;
   border-radius: 50%;
 }

@@ -26,9 +26,9 @@
 
 .enter__link {
   text-align: center;
-  font-size: 72px;
+  font-size: rem(72px);
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: rem(20px);
   background: -webkit-linear-gradient(90deg, #7e02dc, #0b84f5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

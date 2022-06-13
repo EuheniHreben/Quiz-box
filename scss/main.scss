@@ -1,10 +1,24 @@
+// colors
+$violet: #8F00FF;
+$black: #292929;
+$gray: #666666;
+
+// size
+$baseFontSize: 16px;
+$baseContainerWidth: 1000px;
+
+// breakpoints
+$phones: 480px;
+
+@import './media.scss';
 @import './normalize.scss';
 @import './layout.scss';
 
-@import 'blocks/bounce.scss';
+@import './blocks/bounce.scss';
 @import './blocks/btn.scss';
 @import './blocks/enter.scss';
 @import './blocks/hero.scss';
+@import './blocks/dropdown.scss';
 @import './blocks/top.scss';
 @import './blocks/order.scss';
 @import './blocks/header.scss';

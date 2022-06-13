@@ -1,6 +1,6 @@
 .partners {
   background-color: #a5a4a4;
-  padding: 40px;
+  padding: rem(40px);
 }
 
 .partners__list {
@@ -10,9 +10,9 @@
 }
 
 .partners__item {
-  margin-right: 80px;
-  max-width: 180px;
-  margin-bottom: 40px;
+  margin-right: rem(80px);
+  max-width: rem(180px);
+  margin-bottom: rem(40px);
 }
 
 .partners__item:nth-child(4n) {

@@ -1,7 +1,7 @@
 .btn {
   display: inline-flex;
-  padding: 20px 30px;
-  background-color: #8F00FF;
+  padding: rem(20px) rem(30px);
+  background-color: $violet;
   border-radius: 5px;
   font-weight: bold;
   justify-content: center;
@@ -14,7 +14,7 @@
 
 .btn:hover {
   background-color: #741BBA;
-  box-shadow: 0 0 20px 0 #9e2af8;
+  box-shadow: 0 0 rem(20px) 0 #9e2af8;
   border-radius: 50px;
   color: #fff;
 }
@@ -25,8 +25,8 @@
 
 .btn_type_second {
   background-color: #fff;
-  border: 2px solid #8F00FF;
-  color: #8F00FF;
+  border: 2px solid $violet;
+  color: $violet;
 }
 
 .btn_type_third {
@@ -45,5 +45,5 @@
 
 .btn_type_fourth:hover {
   background-color: #1a1a1a;
-  box-shadow: 0 0 20px 0 #a4a1a4;
+  box-shadow: 0 0 rem(20px) 0 #a4a1a4;
 }

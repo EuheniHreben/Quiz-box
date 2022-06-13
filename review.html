@@ -28,15 +28,23 @@
           
             <adress class="contact">
               <a href="tel:+375257026550" class="contact__phone">8 800 700 30 30</a>
-              <a href="" class="contact__work">График работы</a>
+              <div class="dropdown">
+                <a href="#" class="dropdown__link">График работы</a>
+                <div class="dropdown__menu">
+                    <ul class="dropdown__list">
+                        <li class="dropdown__item dropdown__item--title">пн-вс: 09:00 - 20:00</li>
+                        <li class="dropdown__item">Обед: 14:00 - 14:30</li>
+                    </ul>
+                </div>
+              </div>
             </adress>
           </header>
           <h1 class="top__title">Игры</h1>
           
           <div class="breadcrumbs">
             <ul class="breadcrumbs__list">
-              <li class="breadcrumbs__item"><a href="" class="breadcrumbs__link">Главная</a></li>
-              <li class="breadcrumbs__item"><a href="" class="breadcrumbs__link">Отзывы</a></li>
+              <li class="breadcrumbs__item"><a href="main.html" class="breadcrumbs__link">Главная</a></li>
+              <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">Отзывы</a></li>
             </ul>
           </div>
         </div>
@@ -212,9 +220,12 @@
     </section>
 
     <footer class="footer">
-      <div class="container footer__container">
-        <a href="./index.html" class="logo"><img src="./img/logo.png" alt="" class="logo__img"></a>
-    
+      <div class="container">
+
+        <div class="footer__container">
+
+          <a href="main.html" class="logo"><img src="./img/logo.png" alt="" class="logo__img"></a>
+
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item"><a href="main.html" class="menu__link">Главная</a></li>
@@ -222,19 +233,20 @@
               <li class="menu__item"><a href="review.html" class="menu__link">Отзывы</a></li>
             </ul>
           </nav>
-    
-          <div class="social">
-            <ul class="social__list">
-              <li class="social__item social__item--tele"><a href="https://vk.com" class="social__link"></a></li>
-              <li class="social__item social__item--vk"><a href="" class="social__link"></a></li>
-              <li class="social__item social__item--face"><a href="" class="social__link"></a></li>
-              <li class="social__item social__item--inst"><a href="" class="social__link"></a></li>
-            </ul>
-          </div>
+
+          <ul class="social__list">
+            <li class="social__item social__item--tele"><a href="https://web.telegram.org" class="social__link"></a></li>
+            <li class="social__item social__item--vk"><a href="https://vk.com" class="social__link"></a></li>
+            <li class="social__item social__item--face"><a href="https://www.facebook.com" class="social__link"></a></li>
+            <li class="social__item social__item--inst"><a href="https://www.instagram.com" class="social__link"></a></li>
+          </ul>
+
           <adress class="contact">
-            <a href="" class="contact__free">Бесплатный звонок по России</a>
+            <p class="contact__free">Бесплатный звонок по России</p>
             <a href="tel:+375257026550" class="contact__phone">8 800 700 30 30</a>
           </adress>
+          
+        </div>
       </div>
     </footer>
 

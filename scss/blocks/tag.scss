@@ -1,11 +1,11 @@
 .tag {
-  background-color: #B9EAE4;
+  background-color: #fff;
   color: #000;
-  border-radius: 35px;
-  padding: 10px 18px;
+  border-radius: rem(35px);
+  padding: rem(10px) rem(18px);
   text-align: center;
   display: inline-block;
-  font-size: 13px;
+  font-size: rem(13px);
 }
 
 .tag--active {

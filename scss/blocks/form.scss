@@ -1,24 +1,24 @@
 .form {
-  padding-top: 40px;
+  padding-top: rem(40px);
 }
 
 .form__group {
   display: flex;
-  column-gap: 28px;
-  margin-bottom: 28px;
+  column-gap: rem(28px);
+  margin-bottom: rem(28px);
 }
 
 .form__list {
   display: flex;
-  gap: 9px 14px;
+  gap: rem(9px) rem(14px);
   margin-left: auto;
-  max-width: 705px;
+  max-width: rem(705px);
   flex-wrap: wrap;
 }
 
 .form__input {
   background-color: #fff;
-  padding: 20px 30px;
+  padding: rem(20px) rem(30px);
   border-radius: 5px;
   border: 3px solid transparent;
   outline: none;
@@ -34,12 +34,12 @@
 }
 
 .form__input--type-textarea {
-  height: 235px;
+  height: rem(235px);
   resize: none;
 }
 
 .form__btn {
   display: flex;
-  gap: 14px;
+  gap: rem(14px);
   margin-left: auto;
 }

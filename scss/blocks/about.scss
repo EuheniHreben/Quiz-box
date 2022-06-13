@@ -1,9 +1,9 @@
 .about {
-  margin-bottom: 80px;
+  margin-bottom: rem(80px);
 }
 
 .about__main-title {
-  margin-bottom: 20px;
+  margin-bottom: rem(20px);
 }
 
 .about__list {
@@ -11,20 +11,20 @@
 }
 
 .about__img {
-  max-width: 780px; 
-  max-height: 450px;
+  max-width: rem(780px); 
+  max-height: rem(450px);
 }
 
 .about__item--text {
-  width: 780px; 
-  height: 450px;
-  margin-left: -120px;
-  margin-top: 80px;
+  width: rem(780px); 
+  height: rem(450px);
+  margin-left: rem(-120px);
+  margin-top: rem(80px);
   position: relative;
   overflow: hidden;
   display: block;
   background-image: linear-gradient(90deg, #8F00FF, #148CFF);
-  font-size: 16px;
+  font-size: rem(16px);
 }
 
 .about__desc {
@@ -36,9 +36,9 @@
   bottom: 0;
   right: 0;
   top: 0;
-  padding: 40px;
+  padding: rem(40px);
   position: absolute; 
-  min-height: 300px;
+  min-height: rem(300px);
 }
 
 .about__desc:last-child {
@@ -46,5 +46,5 @@
 }
 
 .about__text {
-  margin-bottom: 20px;
+  margin-bottom: rem(20px);
 }

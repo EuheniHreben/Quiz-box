@@ -3,8 +3,9 @@
 }
 
 .top-container {
-  min-height: 412px;
+  min-height: rem(412px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
 }
