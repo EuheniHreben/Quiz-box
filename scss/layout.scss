@@ -18,12 +18,13 @@ body {
 .wrapper {
   height: 100%;
   width: 100%;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
 }
 
 .wrapper-main {
-  background: url(../img/bgtop.png) top no-repeat, url(../img/bgbottom.png)  bottom no-repeat ;
+  background: url(../img/bgtop.png) top center no-repeat, url(../img/bgbottom.png) bottom center no-repeat;
 }
 
 * {

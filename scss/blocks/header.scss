@@ -2,8 +2,18 @@
   display: flex;
   padding-top: rem(60px);
   align-items: center;
+  justify-content: space-between;
+  
+  @include phones {
+    padding-top: rem(40px);
+    justify-content: center;
+  }
 }
 
 .header--main {
   margin-bottom: rem(150px);
+  
+  @include phones {
+    margin-bottom: rem(100px);
+  }
 }

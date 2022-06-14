@@ -3,6 +3,10 @@
   flex-direction: column;
   flex-wrap: wrap;
   text-align: right;
+
+  @include phones {
+    display: none; 
+  }
 }
 
 .contact__phone {

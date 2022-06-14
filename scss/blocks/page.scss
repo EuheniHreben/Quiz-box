@@ -10,6 +10,11 @@
 
 .page__current {
   margin-right: rem(30px);
+  
+  @include phones {
+    margin-right: rem(10px);
+    
+  }
 }
 
 .page__list {
@@ -25,6 +30,11 @@
   transition: 0.3s;
   border-radius: 50%;
   justify-content: center;
+  
+  @include phones {
+    margin-right: rem(2px);
+
+  }
 }
 
 .page__link--active {
