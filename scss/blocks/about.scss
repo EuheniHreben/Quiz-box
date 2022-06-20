@@ -1,0 +1,49 @@
+.about {
+  margin-bottom: rem(80px);
+}
+
+.about__main-title {
+  margin-bottom: rem(20px);
+}
+
+.about__list {
+  display: flex;
+}
+
+.about__item {
+  flex: 1;
+}
+
+.about__item--text {
+  width: rem(780px); 
+  height: rem(450px);
+  margin-left: rem(-120px);
+  margin-top: rem(80px);
+  position: relative;
+  overflow: hidden;
+  display: block;
+  background-image: linear-gradient(90deg, #8F00FF, #148CFF);
+  font-size: rem(16px);
+}
+
+.about__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  padding: rem(40px);
+  position: absolute; 
+  min-height: rem(300px);
+}
+
+.about__desc:last-child {
+  align-items: flex-start;
+}
+
+.about__text {
+  margin-bottom: rem(20px);
+}

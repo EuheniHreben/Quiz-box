@@ -1,0 +1,24 @@
+.hero {
+  margin-bottom: rem(150px);
+}
+
+.hero__container {
+  max-width: 68%;
+}
+
+.hero__main-title {
+  
+  @include phones {
+    font-size: rem(40px);
+  }
+}
+
+.hero__subtitle {
+  margin-bottom: rem(100px);
+  font-size: rem(20px);
+  
+  @include phones {
+    margin-bottom: rem(60px);
+
+  }
+}

@@ -1,0 +1,45 @@
+.btn {
+  display: inline-flex;
+  padding: rem(20px) rem(30px);
+  background-color: $violet;
+  border-radius: 5px;
+  font-weight: bold;
+  justify-content: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #fff;
+  transition: .5s;
+}
+
+.btn:hover:focus {
+  background-color: #741BBA;
+  box-shadow: 0 0 rem(20px) 0 #9e2af8;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.btn_type_second {
+  background-color: #fff;
+  border: 2px solid $violet;
+  color: $violet;
+}
+
+.btn_type_third {
+  border-color: #fff;
+  background-color: #148CFF;
+}
+
+.btn_type_third:hover:focus {
+  background-color: #148CFF;
+}
+
+.btn_type_fourth {
+  border-color: #fff;
+  background-color: #1a1a1a;
+}
+
+.btn_type_fourth:hover:focus {
+  background-color: #1a1a1a;
+  box-shadow: 0 0 rem(20px) 0 #a4a1a4;
+}

@@ -1,0 +1,10 @@
+.footer {
+  background-color: #17191C;
+}
+
+.footer__container {
+  display: flex;
+  min-height: rem(100px);
+  align-items: center;
+  justify-content: space-between;
+}

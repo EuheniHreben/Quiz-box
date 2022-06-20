@@ -1,0 +1,49 @@
+.game {
+  margin-bottom: rem(100px);
+}
+
+.game__list {
+  margin-bottom: rem(30px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.game__item {
+  display: flex;
+  margin-right: rem(30px);
+  margin-bottom: rem(20px);
+  max-width: rem(440px);
+
+  @include phones {
+    margin-right: 0;
+  }
+}
+
+.game__link {
+  position: relative;
+}
+
+.game__img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.game__desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: rem(30px);
+  padding-right: rem(30px);
+  padding-bottom: rem(30px);
+  min-height: rem(150px);
+}
+
+.game__name {
+  font-size: rem(24px);
+  font-weight: bold;
+}
+
+.game__text {
+  font-size: rem(16px);
+}

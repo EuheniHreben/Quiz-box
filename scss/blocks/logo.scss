@@ -1,0 +1,11 @@
+.logo__img {
+  margin-right: rem(80px);
+  width: rem(140px);
+  height: rem(30px);
+  
+  @include phones {
+    margin-right: rem(40px);
+    width: rem(100px);
+
+  }
+}

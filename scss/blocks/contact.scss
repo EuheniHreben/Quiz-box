@@ -1,0 +1,28 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: right;
+
+  @include phones {
+    display: none; 
+  }
+}
+
+.contact__phone {
+  display: flex;
+  text-align: right;
+  font-size: rem(26px);
+  transition: 0.3s;
+}
+
+.contact__phone:hover {
+  color: #741BBA;
+}
+
+.contact__work {
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  text-decoration: underline;
+}

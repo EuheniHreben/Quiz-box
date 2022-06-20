@@ -1,0 +1,35 @@
+.order__list {
+  padding-top: rem(60px);
+  padding-bottom: rem(40px);
+}
+
+.order__item {
+  padding: rem(20px);
+  display: flex;
+  transition: .5s;
+  background-color: rgba(215, 213, 213, 0.071);
+  margin-bottom: rem(20px);
+  border-radius: 5px;
+}
+
+.order__item:hover {
+  background-color: rgba(81, 76, 76, 0.5);
+  box-shadow: 2px 5px rem(15px)  rgba(81, 76, 76, 0.5); 
+}
+
+.order__img-box {
+  margin-right: rem(50px);
+}
+
+.order__img {
+  max-width: rem(340px);
+  height: rem(220px);
+}
+
+.order__title {
+  margin-bottom: rem(20px);
+}
+
+.order__text {
+  margin-bottom: rem(20px);
+}

@@ -1,0 +1,30 @@
+.menu__list {
+  display: flex;
+  margin-right: rem(20px);
+}
+
+.menu__item {
+  margin-right: rem(50px);
+  font-size: rem(16px);
+  
+  @include phones {
+    margin-right: rem(20px);
+    font-size: rem(18px);
+  }
+}
+
+.menu__link {
+  transition: 0.3s;
+}
+
+.menu__link--active {
+  color: #741BBA;
+}
+
+.menu__link:hover {
+  color: #741BBA;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}

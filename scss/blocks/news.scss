@@ -1,0 +1,80 @@
+.news {
+  margin-bottom: rem(100px);
+}
+
+.news__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: rem(40px);
+
+  @include phones {
+    justify-content: center;
+  }
+}
+
+.news__item {
+  background-color: #fff;
+  color: #000;
+  min-width: rem(320px);
+  max-width: rem(420px);
+  flex: 1;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s;
+  margin-right: rem(20px);
+  margin-bottom: rem(20px);
+  
+  @include phones {
+    margin-right: 0;
+    margin-bottom: rem(40px);
+  }
+}
+
+.news__item:last-child {
+  margin-right: 0;
+}
+
+.news__item:hover {
+  box-shadow: 2px 5px rem(25px) #741BBA;
+}
+
+.news__img {
+  width: 100%;
+  height: rem(170px);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.news__desc {
+  display: flex;
+  flex-direction: column;
+  padding: rem(20px);
+}
+
+.news__desc:last-child {
+  align-items: flex-start;
+}  
+.news__date-list {
+  display: flex;
+  margin-bottom: rem(20px);
+}
+
+.news__text {
+  margin-bottom: rem(20px);
+}
+
+.news__title {
+  display: flex;
+  gap: rem(10px);
+  align-items: center;
+}
+
+.news__title:after {
+  content: "";
+  display: block;
+  background: url(../img/new.png);
+  width: rem(42px);
+  height: rem(42px);
+}
+
